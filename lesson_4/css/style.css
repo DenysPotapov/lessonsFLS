@@ -1,0 +1,66 @@
+@import url("reset.css");
+
+* {
+   color: red;
+}
+
+li,
+span {
+   color: black;
+}
+
+/* ==================HEADER==================== */
+
+
+.header-name {
+   color: blue;
+}
+
+/* перезаписали */
+#uniq-id {
+   color: blueviolet;
+}
+
+/* перезаписали li */
+.header-block li {
+   color: aqua;
+}
+
+
+
+/* ======================MAIN====================== */
+
+/* перезаписали */
+.main-inf * {
+   color: brown;
+}
+
+.block>p {
+   color: aquamarine;
+}
+
+/* перезаписали span в text */
+.text span {
+   color: black;
+}
+
+.sub-block+p {
+   color: green;
+}
+
+/* перезаписали всі, що включають "job" */
+[class*="job"] {
+   color: yellow;
+}
+
+/* перезаписали всі, що включають два класи одночасно */
+.job-item.job-list-dot {
+   color: rebeccapurple;
+}
+
+/* ======================FOOTER====================== */
+
+/* перезаписали тільки а с класом link-a */
+a.link-a {
+   color: blue;
+}
