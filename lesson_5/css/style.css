@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+.title,
+.sub-title,
+.sub-title2 {
+   font-family: "Poppins", sans-serif;
+   line-height: 1.27;
+}
+
+.title,
+.sub-title2 {
+   text-transform: capitalize;
+}
+
+.title {
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 600;
+}
+
+.sub-title {
+   color: #6B77E5;
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.sub-title2 {
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+}
+
+.item {
+   font-weight: 500;
+}
+
+.title-test {
+   font-family: "Proxima Nova", serif;
+   font-size: 50px;
+   font-weight: 900;
+   color: rgba(129, 127, 255, 0.801);
+   text-align: center;
+   text-decoration: underline;
+   text-shadow: 3px 3px 6px rgba(127, 255, 148, 0.651),
+      -3px -3px 10px rgba(255, 142, 127, 0.89);
+   text-transform: uppercase;
+}
+
+.text-test {
+   font-family: "Proxima Nova", sans-serif;
+   color: black;
+   text-transform: lowercase;
+   line-height: 1.5;
+   letter-spacing: 2px;
+   word-wrap: none;
+   word-spacing: 5px;
+   /* white-space: nowrap; */
+   text-indent: 20px;
+}
