@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700,400&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:700&display=swap");
+@import url("fonts.css");
+
+
+@import url("reset.css");
+
+body {
+   font-family: "Inter", sans-serif;
+   color: #7D7D7D;
+   font-size: 18px;
+   line-height: 1.46;
+}
+
+.content1 {
+   max-width: 1250px;
+   margin: 0 auto;
+   padding: 50px 15px;
+}
+
+.page-name {
+   font-size: 0;
+   text-align: center;
+   margin-bottom: 70px;
+}
+
+.rectangle {
+   width: 12px;
+   height: 12px;
+   background-color: #40DDB6;
+   display: inline-block;
+   margin-right: 6px;
+}
+
+.temp-inf {
+   color: #37393F;
+   font-weight: 500;
+   display: inline-block;
+   font-size: 18px;
+   margin-bottom: 16px;
+}
+
+.main-title {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-size: 60px;
+   font-weight: 700;
+   line-height: 1.21;
+}
+
+.page-paragraph {
+   margin-bottom: 50px;
+}
+
+.page-paragraph .image-list {
+   margin-bottom: 24px;
+}
+
+.title-paragraph,
+.subtitle-paragraph {
+   color: #37393F;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+}
+
+.title-paragraph {
+   font-size: 40px;
+   line-height: 1.21;
+   margin-bottom: 11px;
+   text-transform: capitalize;
+}
+
+.text {
+   margin-bottom: 35px;
+}
+
+.subtitle-paragraph {
+   font-size: 30px;
+   margin-bottom: 8px;
+}
+
+.ankor {
+   color: #40DDB6;
+   font-weight: 400;
+}
+
+.ankor-text,
+.image-list {
+   color: #40DDB6;
+}
+
+
+
+
+/* ========================================================= */
+
+
+.content2 {
+   max-width: 860px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.paragraph-list,
+.paragraph-list-ol {
+   margin-left: 16px;
+   list-style-position: inside;
+}
+
+.parafraph-item,
+.parafraph-item-ol {
+   font-weight: 500;
+   margin-bottom: 35px;
+}
+
+.paragraph-list-ol {
+   list-style-type: decimal-leading-zero;
+}
+
+
+
+
+/* ========================================================= */
+
+.content3 {
+   max-width: 1270px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.rectangle2 {
+   width: 6px;
+   height: 28px;
+   border-radius: 10px;
+   background-color: #8A33FD;
+   display: inline-block;
+   vertical-align: text-bottom;
+
+   margin-right: 15px;
+}
+
+.content3-in {
+   margin-left: 21px;
+}
+
+.title-euphoria {
+   color: #3C4242;
+   font-family: "Core Sans С", sans-serif;
+   font-size: 28px;
+   font-weight: 600;
+   line-height: 1.2;
+   letter-spacing: 0.56px;
+   display: inline-block;
+   margin-bottom: 30px;
+}
+
+.subtitle-euphoria {
+   color: #807D7E;
+   font-family: "Core Sans С", sans-serif;
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+   margin-bottom: 25px;
+}
+
+.text-euphoria {
+   color: #807D7E;
+   font-family: "Causten", sans-serif;
+   font-size: 20px;
+   line-height: 1.67;
+   letter-spacing: 0.4px;
+}
+
+.text-euphoria p {
+   margin-bottom: 20px;
+}
+
+.bold-text-euphoria {
+   font-weight: 600;
+}
+
+
+
+/* ========================================================= */
+
+.content4 {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 50px 15px;
+}
+
+.whatwedo-block {
+   display: inline-block;
+   width: 49%;
+}
+
+.whatwedo-block-name {
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 20px;
+   font-weight: 700;
+   color: #D58417;
+   text-transform: uppercase;
+   margin-bottom: 27px;
+}
+
+.whatwedo-title {
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 64px;
+   font-weight: 700;
+   color: #000;
+   margin-bottom: 31px;
+}
+
+.whatwedo-text {
+   font-family: "Cormorant Infant", sans-serif;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 1.4;
+   max-width: 489px;
+}
+
+.whatwedo-picture {
+   display: inline-block;
+   width: 50%;
+}
+
+.image1 {
+   max-width: 177px;
+   vertical-align: text-bottom;
+   margin-right: 20px;
+}
+
+.image2 {
+   max-width: 307px;
+
+}
